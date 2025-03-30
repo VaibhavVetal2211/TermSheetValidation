@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Flask-related files
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+*.out
+*.err
+logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+*.save
+
+# Uploaded files
+uploads/
